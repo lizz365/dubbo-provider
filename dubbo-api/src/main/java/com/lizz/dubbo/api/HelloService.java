@@ -9,4 +9,6 @@ package com.lizz.dubbo.api;
 public interface HelloService {
 
     String getHello(String name);
+
+    String getBye(String name);
 }

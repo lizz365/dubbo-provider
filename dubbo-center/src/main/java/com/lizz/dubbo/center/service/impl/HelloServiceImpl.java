@@ -13,7 +13,15 @@ import org.apache.dubbo.config.annotation.Service;
 public class HelloServiceImpl implements HelloService {
     @Override
     public String getHello(String name) {
-        System.out.println("name:"+name);
+        System.out.println("Hello name:"+name);
         return "Hello " + name;
     }
+
+    @Override
+    public String getBye(String name) {
+        System.out.println("Bye name:"+name);
+        return "Bye " + name;
+    }
+
+
 }
