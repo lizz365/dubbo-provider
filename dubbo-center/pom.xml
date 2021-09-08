@@ -13,7 +13,7 @@
 
     <name>dubbo-center</name>
     <properties>
-        <dubbo.version>2.7.0</dubbo.version>
+        <dubbo.version>2.7.13</dubbo.version>
     </properties>
 
     <dependencies>
